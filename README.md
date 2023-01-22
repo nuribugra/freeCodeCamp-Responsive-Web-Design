@@ -20,5 +20,10 @@ You can see my projects that I made, during freeCodeCamp Responsive Web Design C
 - Intermediate CSS
 - Responsive Web Design
 - Technical Documentation Page Project (JS Documentation Page)
+- CSS Variables
+- CSS Grid (Magazine Page)
+- Landing Page Project
+- CSS Animation
+- CSS Transforms
 
 ### Thank you for your intrest to my projects.
