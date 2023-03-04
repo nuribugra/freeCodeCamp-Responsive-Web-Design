@@ -6,7 +6,7 @@
 
 You can see the projects that I made, during freeCodeCamp Responsive Web Design Curriculum
 
-<p>On the bottom, you can see the curriculum's details:</p>
+<p>At the bottom, you can see the curriculum's details:</p>
 
 - HTML Basics (Dog Photo App)
 - CSS Casics (Cafe Menu)
