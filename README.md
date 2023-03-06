@@ -1,12 +1,12 @@
 <h1 align="center">freeCodeCamp | Responsive Web Design Curriculum</h1>
 
-<div align="center"><img src="https://i.pcmag.com/imagery/reviews/01tPXClg2WjLamQzScplH3y-15.fit_scale.size_760x427.v1627670281.png"></div>
+<div align="center"><img src="https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png" width="700"></div>
 
 ---
 
-You can see my projects that I made, during freeCodeCamp Responsive Web Design Curriculum
+You can see the projects that I made, during freeCodeCamp Responsive Web Design Curriculum
 
-<p>On the bottom, you can see curriculum's details:</p>
+<p>At the bottom, you can see the curriculum's details:</p>
 
 - HTML Basics (Dog Photo App)
 - CSS Casics (Cafe Menu)
