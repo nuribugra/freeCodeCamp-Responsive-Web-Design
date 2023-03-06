@@ -22,7 +22,7 @@ You can see the projects that I made, during freeCodeCamp Responsive Web Design 
 - Technical Documentation Page Project (JS Documentation Page)
 - CSS Variables
 - CSS Grid (Magazine Page)
-- Landing Page Project
+- Landing Page Project (Product Landing Page)
 - CSS Animation
 - CSS Transforms
 
