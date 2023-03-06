@@ -9,7 +9,7 @@ You can see the projects that I made, during freeCodeCamp Responsive Web Design 
 <p>At the bottom, you can see the curriculum's details:</p>
 
 - HTML Basics (Dog Photo App)
-- CSS Casics (Cafe Menu)
+- CSS Basics (Cafe Menu)
 - CSS Colors
 - HTML Forms (Registration Form)
 - CSS Box Model
