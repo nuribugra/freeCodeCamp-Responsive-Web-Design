@@ -26,4 +26,6 @@ You can see the projects that I made, during freeCodeCamp Responsive Web Design 
 - CSS Animation
 - CSS Transforms
 
+Final Project: Personal Portfolio Page
+
 ### Thank you for your intrest to my projects.
