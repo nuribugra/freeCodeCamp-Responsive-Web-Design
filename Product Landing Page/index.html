@@ -5,37 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     
     <main>
-        <div id="header">
+        <header id="header">
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
 
             <nav id="nav-bar">
                 <div class="logo">
-                    <img src="img/logo.png" id="header-img" alt="original trombones logo" width="400">
+                    <img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" id="header-img" alt="original trombones logo" width="400">
                 </div>
                 <div class="main-nav">
                     <ul>
-                        <li><a href="" class="nav-link">Features</a></li>
-                        <li><a href="" class="nav-link">How It Works</a></li>
-                        <li><a href="" class="nav-link">Pricing</a></li>
+                        <li><a href="#features" class="nav-link">Features</a></li>
+                        <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+                        <li><a href="#pricing" class="nav-link">Pricing</a></li>
                     </ul>
                 </div>
             </nav>
-        </div>
+        </header>
         <section>
             <div class="greeting">
                 <h1 class="main-header">Handcrafted, home-made masterpieces</h1>
                 <form action="https://www.freecodecamp.com/email-submit" method="get" id="form">
                     <input type="email" name="email" id="email" placeholder="Enter your email address" required>
-                    <button type="submit">Get Started</button>
+                    <button type="submit" class="btn">Get Started</button>
+                    <input type="submit" value="submit" id="submit">
                 </form>
             </div>
 
-            <div class="features">
+            <div class="features" id="features">
                 <div class="row">
                     <div class="icon-box"><i class="fa-solid fa-fire-flame-curved"></i></div>
                     <div class="text-box">
@@ -57,46 +61,46 @@
                         <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
                     </div>
                 </div>
+            </div>
 
-                <div class="how-it-works">
-                    <h1 class="main-header">How It Works ?</h1>
-                    <iframe id="video" width="840" height="450" src="https://www.youtube.com/embed/y8Yv4pnO7qc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="how-it-works" id="how-it-works">
+                <h1 class="main-header">How It Works ?</h1>
+                <iframe id="video" width="840" height="600" src="https://www.youtube.com/embed/y8Yv4pnO7qc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="pricing" id="pricing">
+                <div class="product" id="tenor">
+                    <div class="product-title">Tenor Trombone</div>
+                    <h2>$600</h2>
+                    <ul>
+                      <li>Lorem ipsum.</li>
+                      <li>Lorem ipsum.</li>
+                      <li>Lorem ipsum dolor.</li>
+                      <li>Lorem ipsum.</li>
+                    </ul>
+                    <button class="btn">Select</button>
                 </div>
-
-                <div class="pricing">
-                    <div class="product" id="tenor">
-                        <div class="product-title">Tenor Trombone</div>
-                        <h2>$600</h2>
-                        <ul>
-                          <li>Lorem ipsum.</li>
-                          <li>Lorem ipsum.</li>
-                          <li>Lorem ipsum dolor.</li>
-                          <li>Lorem ipsum.</li>
-                        </ul>
-                        <button class="btn">Select</button>
-                    </div>
-                    <div class="product" id="bass">
-                        <div class="product-title">Bass Trombone</div>
-                        <h2>$900</h2>
-                        <ul>
-                          <li>Lorem ipsum.</li>
-                          <li>Lorem ipsum.</li>
-                          <li>Lorem ipsum dolor.</li>
-                          <li>Lorem ipsum.</li>
-                        </ul>
-                        <button class="btn">Select</button>
-                    </div>
-                    <div class="product" id="valve">
-                        <div class="product-title">Valve Trombone</div>
-                        <h2>$1200</h2>
-                        <ul>
-                          <li>Plays similar to a Trumpet</li>
-                          <li>Great for Jazz Bands</li>
-                          <li>Lorem ipsum dolor.</li>
-                          <li>Lorem ipsum.</li>
-                        </ul>
-                        <button class="btn">Select</button>
-                    </div>
+                <div class="product" id="bass">
+                    <div class="product-title">Bass Trombone</div>
+                    <h2>$900</h2>
+                    <ul>
+                      <li>Lorem ipsum.</li>
+                      <li>Lorem ipsum.</li>
+                      <li>Lorem ipsum dolor.</li>
+                      <li>Lorem ipsum.</li>
+                    </ul>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="valve">
+                    <div class="product-title">Valve Trombone</div>
+                    <h2>$1200</h2>
+                    <ul>
+                      <li>Plays similar to a Trumpet</li>
+                      <li>Great for Jazz Bands</li>
+                      <li>Lorem ipsum dolor.</li>
+                      <li>Lorem ipsum.</li>
+                    </ul>
+                    <button class="btn">Select</button>
                 </div>
             </div>
         </section>
@@ -110,5 +114,28 @@
 
         <p>Copyright 2023, Nuri Buğra Demir</p>
     </footer>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const mainNav = document.querySelector('.main-nav');
+
+        let showMenu = false
+
+        menuBtn.addEventListener('click', toggleMenu);
+
+        function toggleMenu() {
+            if(!showMenu) {
+                menuBtn.classList.add('open');
+                mainNav.classList.add('open');
+
+                showMenu = true;
+            }else {
+                menuBtn.classList.remove('open');
+                mainNav.classList.remove('open');
+
+                showMenu = false;
+            }
+        }
+    </script>
 </body>
 </html>
