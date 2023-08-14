@@ -14,10 +14,6 @@
             
             <img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" id="header-img" class="logo" alt="original trombones logo">
 
-            <div class="menu-btn">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-
             <nav id="nav-bar">
                 <ul class="main-nav">
                     <li class="nav-item">
@@ -67,7 +63,7 @@
 
             <div class="how-it-works" id="how-it-works">
                 <h1 class="title">How It Works ?</h1>
-                <iframe id="video" width="840" height="600" src="https://www.youtube.com/embed/y8Yv4pnO7qc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe id="video" src="https://www.youtube.com/embed/y8Yv4pnO7qc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
 
             <div class="pricing" id="pricing">
@@ -80,7 +76,7 @@
                       <li>Lorem ipsum dolor.</li>
                       <li>Lorem ipsum.</li>
                     </ul>
-                    <button class="btn">Select</button>
+                    <button class="product-btn">Select</button>
                 </div>
                 <div class="product" id="bass">
                     <div class="product-title">Bass Trombone</div>
@@ -91,7 +87,7 @@
                       <li>Lorem ipsum dolor.</li>
                       <li>Lorem ipsum.</li>
                     </ul>
-                    <button class="btn">Select</button>
+                    <button class="product-btn">Select</button>
                 </div>
                 <div class="product" id="valve">
                     <div class="product-title">Valve Trombone</div>
@@ -102,7 +98,7 @@
                       <li>Lorem ipsum dolor.</li>
                       <li>Lorem ipsum.</li>
                     </ul>
-                    <button class="btn">Select</button>
+                    <button class="product-btn">Select</button>
                 </div>
             </div>
         </section>
@@ -122,31 +118,5 @@
 
         <p>Copyright 2023, Nuri Buğra Demir</p>
     </footer>
-
-    <script>
-        const menuBtn = document.querySelector('.menu-btn');
-        const mainNav = document.querySelector('.main-nav');
-        const nav = document.querySelector("nav");
-
-        let showMenu = false
-
-        menuBtn.addEventListener('click', toggleMenu);
-
-        function toggleMenu() {
-            if(!showMenu) {
-                menuBtn.classList.add('open');
-                mainNav.classList.add('open');
-                nav.classList.add('open');
-
-                showMenu = true;
-            }else {
-                menuBtn.classList.remove('open');
-                mainNav.classList.remove('open');
-                nav.classList.remove('open');
-
-                showMenu = false;
-            }
-        }
-    </script>
 </body>
 </html>

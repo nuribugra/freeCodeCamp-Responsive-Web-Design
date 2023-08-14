@@ -28,12 +28,10 @@ input, button {
 
 /* Navbar */
 header {
-    padding: 2rem;
+    padding: 1.5rem 2rem;
     border-bottom: 2px solid var(--orange);
     width: 100%;
     background-color: #fff;
-    position: fixed;
-    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,57 +56,8 @@ header {
     transition: .5s;
 } 
 .nav-link:hover {
-    color: #606060;
-}
-
-@media (max-width: 768px) {
-    .logo {
-        width: 22rem;
-        margin-left: -2rem;
-    }
-
-    nav {
-        display: none;
-    }
-}
-
-
-/* Responsive nav button */
-.menu-btn {
-    position: absolute;
-    right: 2rem;
-    display: none;
-    font-size: 2.5rem;
-    padding: 0.4rem 0.8rem;
-    color: black;
-    border: 2px solid black;
-    border-radius: 11px;
-    cursor: pointer;
-    z-index: 1;
-}
-
-nav.open {
-    position:fixed;
-    top: 0;
-    left: 0;
-   width: 100%;
-   height: 100vh;
-   background-color: var(--orange);
-   opacity: 0.95; 
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-.main-nav.open {
-    flex-direction: column;
-    text-align: center;
-    gap: 8rem;
-}
-
-@media (max-width: 768px) {
-    .menu-btn {
-        display: block;
-    }
+    text-decoration: underline;
+    color: #858585;
 }
 
 /* Home */
@@ -119,20 +68,21 @@ section {
 
 .home {
     width: 100%;
-    height: 30vh;
-    margin-top: 20rem;
-    padding: 0 1rem;
+    min-height: 30vh;
+    /* margin-top: 10rem; */
+    padding: 10rem;
+    /* border: 2px solid red; */
 }
 
 .main-header {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
-    margin: 8rem auto;
+    margin: 8rem auto 3rem auto;
 }
 
 input[type="email"]{
     border-radius: 30px;
-    padding: 1rem 2rem;
+    padding: 1.3rem 3rem;
     font-size: 2rem;
     border-color: var(--orange);
     color: grey;
@@ -143,10 +93,9 @@ input[type="email"]:focus{
 
 .btn {
     border-radius: 30px;
-    padding: 1rem 5rem;
-    font-size: 1.4rem;
-    height: 46.4px;
-    font-weight: 700;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    font-weight: 400;
     background-color: var(--orange);
     border-color: var(--orange);
     color: #fff;
@@ -158,20 +107,6 @@ input[type="email"]:focus{
     border-color: var(--yellow);
 }
 
-@media (max-width: 768px) {
-    .home {
-        margin-top: 15rem;
-    }
-    .main-header {
-        font-size: 2.5rem;
-        margin: 2rem auto;
-    }
-
-    input[type="email"] {
-        margin-bottom: 3rem;
-    }
-}
-
 /* Features */
 .features {
     display: flex;
@@ -181,8 +116,9 @@ input[type="email"]:focus{
     width: 100%;
     min-height: 60vh;
     margin: auto;
-    gap: 4rem;
-    padding: 2rem;
+    gap: 5rem;
+    padding: 1.6rem;
+    /* border: 2px solid red; */
 }
 
 .row {
@@ -210,32 +146,18 @@ input[type="email"]:focus{
 }
 .text-box h2 {
     font-size: 3rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.9rem;
 }
 .text-box p {
     font-size: 1.5rem;
 }
 
-@media (max-width:768px) {
-    .features {
-        margin-top: 10rem;
-    }
-    .row {
-        flex-direction: column;
-        width: 90%;
-    }
-    .icon {
-        flex-direction: column;
-    }
-
-    .text-box {
-        text-align: center;
-    }   
-}
-
 /* How it works */
 .how-it-works {
+    margin-top: 7rem;
     width: 100%;
+    /* border: 2px solid red; */
+    padding: 2rem;
 }
 
 .title {
@@ -245,30 +167,25 @@ input[type="email"]:focus{
 
 #video {
     width: 60%;
+    height: 70vh;
     margin-bottom: 5rem;
-}
-
-@media (max-width:768px) {
-    .how-it-works {
-        margin-top: 10rem;
-    }
-    #video {
-        width: 90%;
-        height: 40vh;
-    }
+    border-radius: 20px;
 }
 
 /* Pricing */
 .pricing {
     display: flex;
-    width: 80%;
-    padding: 5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 3rem;
     margin: 10rem auto;
-    gap: 4rem;
+    gap: 3.5rem;
+    /* border: 2px solid red; */
 }
 
 .product {
-    width: 33%;
+    width: 23%;
     border-radius: 3rem;
     border: 2px solid var(--orange);
     padding-bottom: 3rem;
@@ -280,7 +197,7 @@ input[type="email"]:focus{
 
 .pricing li {
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .pricing h2 {
@@ -290,24 +207,31 @@ input[type="email"]:focus{
 }
 
 .product-title {
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: #FF8C00;
     margin: 0;
     color: #fff;
     font-weight: 700;
     border-radius: 2.5rem 2.5rem 0 0;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
-@media (max-width: 768px) {
-    .pricing {
-        margin-top: 5rem;
-        flex-direction: column;
-        width: 100%;
-    }
-    .product {
-        width: 100%;
-    }
+.product-btn {
+    width: 85%;
+    border-radius: 30px;
+    padding: 1rem 4rem;
+    font-size: 2.5rem;
+    font-weight: 400;   
+    background-color: var(--orange);
+    border-color: var(--orange);
+    color: #fff;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.product-btn:hover {
+    background-color: var(--yellow);
+    border-color: var(--yellow);
 }
 
 /* Footer */
@@ -340,8 +264,56 @@ footer a {
     text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     footer {
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    footer li {
+        font-size: 1.5rem;
+        margin-right: 1rem;
+    }
+
+    footer p {
+        font-size: 1.5rem;
+    }
+
+    .pricing {
         flex-direction: column;
+        align-items: center;
+    }
+    .product {
+        width: 60%;
+    }
+
+    #video {
+        width: 80%;
+        
+    }
+
+    .logo {
+        margin-bottom: 2rem;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    input[type="email"] {
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .features {
+        gap: 6.5rem;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .text-box {
+        text-align: center;
     }
 }
